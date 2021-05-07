@@ -4,7 +4,7 @@ title: On Hallucination and Predictive Uncertainty in Conditional Language Gener
 categories: [NLP, NLG, Papers]
 ---
 
-This blogpost explores the relatiionship between predictive uncertainity and language generation, 
+This blogpost explores the relationship between predictive uncertainity and language generation, 
 and the correlation between uncertainity and hallucination in NLG. For more details, read the 
 original [paper](https://arxiv.org/abs/2103.15025). 
 
