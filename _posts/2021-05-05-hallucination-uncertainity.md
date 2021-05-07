@@ -16,12 +16,12 @@ would indicate hallucination.
 
 ### Task: Image caption
 
-The objective of the image caption task is to generate caption tokens y_1, y_2, ... given the 
+The objective of the image caption task is to generate caption tokens $y_1, y_2, ...$ given the 
 input image x.
 
 ### Hallucination probability
 
-Supposing we know in advance the hallucination vocab, V_h given the context c_i, hallucination 
+Supposing we know in advance the hallucination vocab, $\mathcal{V}_h$ given the context $c_i$, hallucination 
 hallucination probability is given by the following expression:
 
 
