@@ -13,4 +13,4 @@ Hola reader! My name is Royal \[with-cheese\] Sequeira. I am a Research Scientis
 In my free time I read books, meditate, pretend to exercise, and make fun of my friends. 
 
 ### Contact
-Contact me at sequeiraroyal at gmail dot com. You can also find me [Instagram](https://www.instagram.com/royalseq/), [Twitter](https://twitter.com/SequeiraRoyal), [LinkedIn](https://www.linkedin.com/in/royalsequeira/), and [Goodreads](https://www.goodreads.com/user/show/45990515-royal-sequeira).
+Contact me at sequeiraroyal at gmail dot com. You can also find me on [Instagram](https://www.instagram.com/royalseq/), [Twitter](https://twitter.com/SequeiraRoyal), and [Goodreads](https://www.goodreads.com/user/show/45990515-royal-sequeira).
