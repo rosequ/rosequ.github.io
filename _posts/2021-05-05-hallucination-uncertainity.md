@@ -17,7 +17,7 @@ would indicate hallucination.
 ### Task: Image caption
 
 The objective of the image caption task is to generate caption tokens $y_1, y_2, ...$ given the 
-input image x.
+input image $x$.
 
 ### Hallucination probability
 
