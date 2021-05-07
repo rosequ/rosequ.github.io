@@ -30,9 +30,24 @@ hallucination probability is given by the following expression:
 
 
 
+
 ### Predictive uncertainity
 
 You might have seen entropy as the measure of information. An alaternative interpratation of entropy 
-is a measure of uncertainity.
+is a measure of uncertainity. Entropy is expressed as follows:
 
+$$ \begin{equation} H(x) = -\sum_i p(x_i) log(p(x_i))\end{equation} $$
+
+To see the uncertainity interpretation of entropy, consider $p(.)$ as a uniform probability distribution. 
+Uniform distribution has equality probability for all events, and therefore maximum randomness, implying 
+maximum uncertainity. 
+
+
+### Uncertainity decomposition
+
+### Evaluation
+
+### Correlation between different uncertainities
+
+### Reducing hallucinations
 
