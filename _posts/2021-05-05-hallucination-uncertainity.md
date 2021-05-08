@@ -25,7 +25,9 @@ input image $x$.
 
 ### Hallucination probability
 
-Supposing we know in advance the hallucination vocab, $\mathcal{V}_h$ given the context $c_i$, hallucination 
+To calculate hallucination probability, we simply have to find the probability of generating _undesired_ words. 
+Let's assume that for each image we have this set of _undesired_ words and we call them hallucination vocabulary.
+Given the hallucination vocab, $\mathcal{V}_h$ given the context $c_i$, hallucination 
 hallucination probability is given by the following expression:
 
 
@@ -36,14 +38,26 @@ hallucination probability is given by the following expression:
 You might have seen entropy as the measure of information. An alaternative interpratation of entropy 
 is a measure of uncertainity. Entropy is expressed as follows:
 
-$$ \begin{equation} H(x) = -\sum_i p(x_i) log(p(x_i))\end{equation} $$
+$$ \begin{equation} H(x) = -\sum_i p(x_i)\:log(p(x_i))\end{equation} $$
 
 To see the uncertainity interpretation of entropy, consider $p(.)$ as a uniform probability distribution. 
 Uniform distribution has equality probability for all events, and therefore maximum randomness, implying 
 maximum uncertainity. 
 
+The total predictive uncertainity $H(x)$ can be broken down into two parts. Given the entire vocabulary, $\mathcal{V}$, 
+let $\mathcal{V_h}$ be the hallucination vocabulary and $\mathcal{V}\ \mathcal{V_h}$ be the normal non-hallucination 
+vocabulary. Then predictive uncertainity can be broken down into two pars as follows:
+- Model's uncertainity matching the right token
+- Uncertainity matching unsuitable tokens. This is directly proportional to hallucination probability
 
 ### Uncertainity decomposition
+Historically, uncertainities have been decomposed into two parts:
+- Epistemic uncertainity:
+    Epistemic uncertainity corresponds to uncertainity associated with the model weights. For the rest of the article, 
+    you can consider this as `model uncertainity`.
+- Aleotoric uncertainity:
+    This uncertainity is corresponds to the uncertainity associated with randomness in data or measure. You can think of 
+    this as `random uncertainity`. 
 
 ### Evaluation
 
